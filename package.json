@@ -1,10 +1,11 @@
 {
   "name": "backend-mastery",
   "version": "1.0.0",
+  "type": "module",
   "description": "An effor for mastery of backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/hasibmuhammad/backend-mastery#readme",
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
