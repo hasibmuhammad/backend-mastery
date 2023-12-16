@@ -1,0 +1,26 @@
+{
+  "name": "backend-mastery",
+  "version": "1.0.0",
+  "description": "An effor for mastery of backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasibmuhammad/backend-mastery.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Hasib Muhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasibmuhammad/backend-mastery/issues"
+  },
+  "homepage": "https://github.com/hasibmuhammad/backend-mastery#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
